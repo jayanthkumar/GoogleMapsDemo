@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Google Maps Demo</title>
+		<meta name="author" content="Jayanth" />
+		<!-- Date: 2014-04-09 -->
+		<link type="text/css" href="css/map.css" rel="stylesheet" media="all" />
+		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="http://documentcloud.github.com/underscore/underscore-min.js"></script> -->
+		<script type="text/javascript" src="libraries/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="libraries/underscore-min.js"></script>
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?libraries=visualization&sensor=false"></script>
+		<script type="text/javascript" src="js/map.js"></script>
+	</head>
+	<body>
+		<div class='header'>
+			Google Maps Demo
+		</div>
+		<div id="map"></div>
+		<div class='sub-header'>Please enable a feature to view</div>
+		<label><input type="radio" name="feature" value="heatmap"> HeatMap </label>
+		<label><input type="radio" name="feature" value="polyline"> PolyLine</label>
+		<label><input type="radio" name="feature" value="polygon"> Polygon </label>
+		<label><input type="radio" name="feature" value="rectangle"> Rectangle</label>
+		<label><input type="radio" name="feature" value="circle"> Circle</label>
+	</body>
+</html>
+
